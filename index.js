@@ -11,8 +11,8 @@ const pvpPlugin    = require('mineflayer-pvp').plugin;
 const pvpModule    = require('./pvpModule');
 
 // ── Variables d'environnement Railway ────────────────────────────────────────
-const BOT_HOST     = process.env.MC_HOST     || 'ton-serveur.com';
-const BOT_PORT     = parseInt(process.env.MC_PORT)     || 25565;
+const BOT_HOST     = process.env.MC_HOST     || '141.11.185.41';
+const BOT_PORT     = parseInt(process.env.MC_PORT)     || 50638;
 const BOT_USERNAME = process.env.MC_USERNAME || 'PvPBot';
 const BOT_VERSION  = process.env.MC_VERSION  || '1.20.1';
 const BOT_AUTH     = process.env.MC_AUTH     || 'offline'; // 'microsoft' pour un compte premium
