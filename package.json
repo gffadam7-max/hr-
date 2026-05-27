@@ -1,0 +1,17 @@
+{
+  "name": "minecraft-pvp-bot",
+  "version": "1.0.0",
+  "description": "Bot Mineflayer avec module PvP, hébergé sur Railway",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "mineflayer": "^4.23.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "mineflayer-pvp": "^1.3.2"
+  }
+}
